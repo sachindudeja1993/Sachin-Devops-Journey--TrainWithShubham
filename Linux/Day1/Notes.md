@@ -22,3 +22,7 @@ Ops runs the product.
     - CI (Continuous Integration): Developers save their work to a shared folder (repository) often (daily). An automatic robot checks if the new work breaks the old work. 
     - CD (Continuous Delivery/DepIoyment): If the robot says the work is good, it automatically packages it and sends it to the users (or prepares it for a click- 
 button release). 
+  - Key Concepts 
+    - Build Automation: Compiling code automatically. 
+    - Automated Testing: Running tests without humans. 
+    - Pipeline: The set of automated steps code goes through (Build + Test + Deploy). 
