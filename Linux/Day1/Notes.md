@@ -1,4 +1,4 @@
-# Day 01 – Introduction to DevOps and Cloud
+<img width="996" height="181" alt="image" src="https://github.com/user-attachments/assets/7f110b69-e74a-46f2-a08e-8652aced5fa3" /># Day 01 – Introduction to DevOps and Cloud
 ## Devops 
 - Dev (Development):
 The team responsible for writing code, designing features, and fixing bugs.
@@ -31,4 +31,16 @@ button release).
     - Infrastructure as Code (IaC): Instead of physically plugging in cables or clicking buttons to set up a server, you write a text file (script) that describes the server. The computer reads the file and creates the server for you.
     - Key Concepts 
        - Declarative: You tell the tool what you want (e.g., "l want 3 servers"), and it figures out how to do it. 
-       - Version Control: You can save your infrastructure scripts in Git, just like software code. 
+       - Version Control: You can save your infrastructure scripts in Git, just like software code.
+- What is Cloud Computing 
+    - Cloud computing is "renting" someone else's computer over the internet. Instead of buying a server and putting it in your office closet, you pay Amazon, Microsoft, or Google to use their massive data centers.
+    - Key Concepts 
+       - On-Demand: Get a server whenever you want. 
+       - Pay-as-you-go: Pay only for what you use, like a utility bill.
+    - Cloud Service Models (laaS, PaaS, SaaS)
+       - laaS (Infrastructure as a Service): Renting the raw hardware (like a plot of land). You build everything on top.
+         - AWS EC2, Google Compute Engine. You manage the OS and Apps.
+       - PaaS (Platform as a Service): Renting the tools and environment (like a house frame). You just add the furniture (code).
+         - Heroku, Google App Engine. You manage only the Code. 
+       - SaaS (Software as a Service): Renting the finished product (like a hotel room).
+         - Gmail, Salesforce, Dropbox. You manage nothing but your settings. 
