@@ -50,4 +50,14 @@ button release).
          - Servers dedicated to one company (often on-premise).
        - Hybrid Cloud: Like a taxi. You have your private space, but it uses public infrastructure when needed.
          - Connecting Public and Private clouds together.
-       - Multi-Cloud: Using AWS and Azure at the same time. 
+       - Multi-Cloud: Using AWS and Azure at the same time.
+- DevOps + Cloud Together
+    - DevOps is the "Method", and Cloud is the "Toolbox." 
+    - You can do DevOps without Cloud, but it's hard. 
+    - You can use Cloud without DevOps, but it's slow. 
+    - Together, they are a "Power Couple" for speed.    
+    - Key Concepts 
+       - Source Control (Git): Developer saves code. 
+       - CI Server (Jenkins/GitHub Actions): Robot picks up code and tests it. 
+       - Artifact Registry: Robot saves the approved application. 
+       - Cloud Deploy: Robot sends app to AWS/Azure. 
