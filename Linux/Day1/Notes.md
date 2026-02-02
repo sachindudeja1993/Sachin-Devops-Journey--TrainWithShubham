@@ -1,4 +1,3 @@
-<img width="996" height="181" alt="image" src="https://github.com/user-attachments/assets/7f110b69-e74a-46f2-a08e-8652aced5fa3" /># Day 01 – Introduction to DevOps and Cloud
 ## Devops 
 - Dev (Development):
 The team responsible for writing code, designing features, and fixing bugs.
@@ -43,4 +42,12 @@ button release).
        - PaaS (Platform as a Service): Renting the tools and environment (like a house frame). You just add the furniture (code).
          - Heroku, Google App Engine. You manage only the Code. 
        - SaaS (Software as a Service): Renting the finished product (like a hotel room).
-         - Gmail, Salesforce, Dropbox. You manage nothing but your settings. 
+         - Gmail, Salesforce, Dropbox. You manage nothing but your settings.
+    - Cloud Deployment Models 
+       - Public Cloud: Like a public bus. Shared by many, cheap, efficient.
+         - Aws, Azure, Google Cloud (GCP). 
+       - Private Cloud: Like a personal car. Only for you, secure, expensive.
+         - Servers dedicated to one company (often on-premise).
+       - Hybrid Cloud: Like a taxi. You have your private space, but it uses public infrastructure when needed.
+         - Connecting Public and Private clouds together.
+       - Multi-Cloud: Using AWS and Azure at the same time. 
