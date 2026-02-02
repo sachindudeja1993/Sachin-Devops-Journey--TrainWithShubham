@@ -26,3 +26,9 @@ button release).
     - Build Automation: Compiling code automatically. 
     - Automated Testing: Running tests without humans. 
     - Pipeline: The set of automated steps code goes through (Build + Test + Deploy). 
+- Automation & Infrastructure as Code (IaC) 
+    - Automation: Using tools to do boring tasks so humans don't have to.
+    - Infrastructure as Code (IaC): Instead of physically plugging in cables or clicking buttons to set up a server, you write a text file (script) that describes the server. The computer reads the file and creates the server for you.
+    - Key Concepts 
+       - Declarative: You tell the tool what you want (e.g., "l want 3 servers"), and it figures out how to do it. 
+       - Version Control: You can save your infrastructure scripts in Git, just like software code. 
