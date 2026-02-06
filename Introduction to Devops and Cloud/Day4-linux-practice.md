@@ -1,0 +1,20 @@
+## ps command
+- Full form: Process Status
+- Purpose: Shows a snapshot of processes running at that moment.
+- Basic usage:Displays processes related to the current shell only.
+<img width="356" height="86" alt="image" src="https://github.com/user-attachments/assets/d23bad30-7d93-4296-8818-a1b7b668c144" />
+## ps aux
+- Options explained:
+ -a shows processes from all users.
+ -u displays user‑oriented format (owner, CPU%, memory%).
+ -x	includes background/daemon processes not attached to a terminal.
+ - Shows all processes on the system in detail.
+<img width="807" height="87" alt="image" src="https://github.com/user-attachments/assets/22db3454-b81c-4636-aad7-c05e1ced301d" />
+## ps aux | less
+- Purpose: The output of ps aux is very long.|less  allows you to scroll through it.
+- Usage: Use arrow keys to scroll, press q to quit.
+<img width="797" height="117" alt="image" src="https://github.com/user-attachments/assets/2e236af2-8248-4272-85f4-84beac5acb81" />
+## top
+- Real‑time monitoring of processes.
+- Usages: Check running processes
+<img width="806" height="262" alt="image" src="https://github.com/user-attachments/assets/b061ef60-ff71-4908-9306-bf2dc7ee8baf" />
