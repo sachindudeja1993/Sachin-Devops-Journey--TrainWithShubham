@@ -43,3 +43,15 @@ A systemd service is a background program managed by systemd that runs on Linux 
   - sudo systemctl status nginx
 - journalctl: View Service Logs and Displays service logs for debugging.
   - sudo journalctl -u nginx
+# Capture a small troubleshooting flow
+## Problem: Website not accessible
+- Step 1: Checked service status
+  - Command: systemctl status nginx
+  - Observation: Service was inactive.
+- Step 2: Identified root cause
+  - Root cause: Nginx service was stopped.
+- Step 3: Fixed the issue
+  - Command: sudo systemctl start nginx
+- Step 4: Verified
+  - Command: curl http://localhost
+  - Result: Website working successfully. 
