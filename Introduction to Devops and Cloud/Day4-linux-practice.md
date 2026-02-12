@@ -54,4 +54,25 @@ A systemd service is a background program managed by systemd that runs on Linux 
   - Command: sudo systemctl start nginx
 - Step 4: Verified
   - Command: curl http://localhost
-  - Result: Website working successfully. 
+  - Result: Website working successfully.
+# Process check 
+ - ps aux -Show all the running process of system.
+   - ps → process status (running programs dikhao)
+   - a → sab users ke process
+   - u → detail format (user, CPU, RAM)
+   - x → background process bhi dikhao
+     
+   <img width="802" height="68" alt="image" src="https://github.com/user-attachments/assets/4caf1b4c-ab85-4a31-ae3c-ea351da3fd78" />
+   
+   - ps aux | grep nginx - Show only nginx.
+     
+   <img width="807" height="67" alt="image" src="https://github.com/user-attachments/assets/f283d178-c54e-44b7-abdb-6c7bd3a726da" />
+   
+ - top - Show real time monitoring like task manager in windows.
+   
+   <img width="795" height="245" alt="image" src="https://github.com/user-attachments/assets/51044a14-c6cd-4d34-8c44-6d38151b06c2" />
+   
+ 
+  
+ 
+   
