@@ -71,6 +71,13 @@ A systemd service is a background program managed by systemd that runs on Linux 
  - top - Show real time monitoring like task manager in windows.
    
    <img width="795" height="245" alt="image" src="https://github.com/user-attachments/assets/51044a14-c6cd-4d34-8c44-6d38151b06c2" />
+
+# Service checks
+ - systemctl status nginx - Show the current status of the nginx service.
+ - systemctl list-units --type=service | grep nginx - This shows only nginx.
+
+<img width="806" height="66" alt="image" src="https://github.com/user-attachments/assets/6ef696fb-e157-4d7b-a094-9315aab2324e" />
+
    
  
   
